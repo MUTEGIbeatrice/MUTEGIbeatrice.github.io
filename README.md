@@ -1,12 +1,9 @@
 # MUTEGIbeatrice.github.io
-E-portfolio
-
+E-Portfolio
 
 By: MUTEGI Beatrice
 
-
 Credits:
-
 	Main Design:
 		Landed by HTML5 UP
 		html5up.net | AJ - aj@lkn.io | @ajlkn@ajlkn
