@@ -3126,7 +3126,7 @@ input, select, textarea {
 			-webkit-transition: -webkit-transform 1s ease, opacity 1s ease;
 			-ms-transition: -ms-transform 1s ease, opacity 1s ease;
 			transition: transform 1s ease, opacity 1s ease;
-			background: rgba(23, 24, 32, 0.95);
+			background: rgba(23, 24, 32, 0.904);
 			border-style: solid;
 			opacity: 1;
 			position: absolute;
@@ -3510,7 +3510,7 @@ input, select, textarea {
 		#banner:before {
 			content: '';
 			display: inline-block;
-			height: 100vh;
+			height: 8vh;
 			vertical-align: middle;
 			width: 1%;
 		}
