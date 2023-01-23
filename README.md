@@ -16,3 +16,5 @@ Credits:
 		jQuery (jquery.com)
 		Scrollex (github.com/ajlkn/jquery.scrollex)
 		Responsive Tools (github.com/ajlkn/responsive-tools)
+
+<img src="https://t.bkit.co/w_63cf1ec7f188e.gif" />
