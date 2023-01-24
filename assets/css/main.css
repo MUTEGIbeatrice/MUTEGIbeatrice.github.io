@@ -2447,9 +2447,29 @@ input, select, textarea {
 			font-weight: 400;
 		}
 
-		.icon > .label {
-			display: none;
+		.icon .label{
+		position: absolute;
+		display:block;
+		top:0px;
+		text-align: center;
+		box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+		font-size: 15px;
+		padding: 5px 5px;
+		border-radius: 18px;
+		background-color: #96354508;
+		color:white;
+		opacity:0;
+		pointer-events: none;
+		transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+		
 		}
+					
+		.icon:hover .label{
+		opacity:1;
+		pointer-events: auto;
+		top:-70px;
+		}
+
 
 		.icon:before {
 			line-height: inherit;
