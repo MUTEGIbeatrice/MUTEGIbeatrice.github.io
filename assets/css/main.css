@@ -4287,6 +4287,10 @@ input, select, textarea {
 			background-color: hwb(9 52% 9%);;
 		}
 
+		.tiles article.style9 > .image:before {
+			background-color: hwb(50 52% 9%);;
+		}
+
 		body:not(.is-touch) .tiles article:hover > .image {
 			-moz-transform: scale(1.1);
 			-webkit-transform: scale(1.1);
