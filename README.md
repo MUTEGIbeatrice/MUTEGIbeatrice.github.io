@@ -1,4 +1,4 @@
-# MUTEGI - ROYERbeatrice.github.io
+# MUTEGIbeatrice.github.io
 E-Portfolio
 
 By: MUTEGI - ROYER Beatrice
