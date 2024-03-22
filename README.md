@@ -1,7 +1,7 @@
-# MUTEGIbeatrice.github.io
+# MUTEGI - ROYERbeatrice.github.io
 E-Portfolio
 
-By: MUTEGI Beatrice
+By: MUTEGI - ROYER Beatrice
 
 Credits:
 	Main Design:
