@@ -4111,6 +4111,29 @@ input, select, textarea {
 
 	}
 
+
+
+
+	/*about me*/
+
+	.experience-entry {
+		overflow: hidden; /* Ensures container expands with floated elements */
+		width: 100%;
+	}
+	.title {
+		float: left;
+	}
+
+	
+	.date-range {
+		float: right;
+		white-space: nowrap; /* Prevents wrapping */
+	}
+
+
+
+
+
 /* Tiles */
 
 .tiles {
