@@ -132,19 +132,38 @@
 										</style>
 										<section>
 											<h3>Summary</h3>
-											<p>This thesis focuses on <b> improving the security of Python-based login systems against brute force attacks.</b> <br/>
-												 It explores <b>current prevention methods and develops a Python solution using techniques like rate-limiting, CAPTCHA, and account lockouts.</b> <br/>
-												 The goal is to <b>create a secure, user-friendly system, particularly for smaller organizations with limited resources.</b> <br/>
-												 The research will assess the effectiveness and usability of these methods through simulations, aiming to balance security and convenience in preventing brute force attacks. </p>
-									
-												
+											<p>
+												This thesis focuses on <b>enhancing the security of Python/Django-based authentication systems against brute-force attacks.</b><br/>
+												It investigates <b>existing mitigation strategies and implements a multi-layered defence model</b> incorporating techniques such as progressive account lockouts, Google reCAPTCHA, rate-limiting, OTP-based 2FA, and secure email verification.<br/>
+												The aim is to <b>build a robust, scalable, and user-friendly authentication framework tailored for small organizations with limited technical resources.</b><br/>
+												The system's performance and usability are <b>evaluated through simulated attack scenarios, heuristic usability reviews, and real-time dashboard analytics</b> to achieve an optimal balance between strong security and positive user experience.
+											  </p>
 										</section>
 										<hr />
 										<section>
 											<h3>Skills Acquired </h3>
 											<p><ol type="disk"></ol>
 														
-											<li></li>
+												<li>Applying solo Agile development</li>
+												<li>Designing secure authentication workflows</li>
+												<li>Developing Django-based login systems</li>
+												<li>Implementing rate limiting using django-ratelimit</li>
+												<li>Integrating time-based OTP two-factor authentication</li>
+												<li>Configuring and validating Google reCAPTCHA</li>
+												<li>Developing progressive account lockout logic</li>
+												<li>Creating and managing secure email verification tokens</li>
+												<li>Implementing role-based access control (RBAC)</li>
+												<li>Conducting STRIDE and OWASP threat modelling</li>
+												<li>Using Chart.js to build real-time security analytics dashboards</li>
+												<li>Simulating brute-force and distributed attack scenarios</li>
+												<li>Conducting heuristic evaluation using Nielsen's usability principles</li>
+												<li>Enhancing user experience through password guide modals</li>
+												<li>Automating admin alerts for suspicious activities via email</li>
+												<li>Securing user data with Django's hashing and session management tools</li>
+												<li>Logging and monitoring security events in Django</li>
+												<li>Adhering to GDPR and ethical data handling practices</li>
+												<li>Documenting development and research findings professionally</li>
+											  </ul>
 
 
 											</ol> </p>
@@ -156,8 +175,41 @@
 											<h3>References Used</h3>
 									 		<p>Below is a reference list of all the Sources (articles, books, reports, whitepapers, websites, etc) that I used through out (Using Harvard Referencing style). </p>
 										<ol>
-											<li>  </li><br />
-											<li>  </li><br />
+											<ul>
+												<li>Abdulkader, A., Deep, K., Uma, S. & Cremer, C., 2015. A Review of Brute Force Attack Detection Techniques. International Journal of Computer Applications, 128(5).</li><br />
+												<li>Ba, A., Deng, Z. & Zhao, Y., 2021. Mitigating Credential Stuffing Attacks Using Intelligent Authentication Systems. Journal of Information Security Research, 12(3), pp. 78-85.</li><br />
+												<li>CAPEC, 2018. CAPEC-112: Brute Force. [Online] Available at: https://capec.mitre.org/data/definitions/112.html [Accessed 03 April 2025].</li><br />
+												<li>Cleary, J., 2024. Understanding Brute Force Attacks. In: Cybersecurity Threats in Practice. New York: Springer, pp. 22-29.</li><br />
+												<li>Contrast Security, 2021. Obfuscation Bypass in Modern Attacks. [Online] Available at: https://www.contrastsecurity.com/resources [Accessed 02 April 2025].</li><br />
+												<li>Cremer, C., Uma, S. & Padmavathi, S., 2022. Risk Assessment of Brute-Force Authentication Threats. ACM Transactions on Cybersecurity, 9(1), pp. 55-66.</li><br />
+												<li>CWE Content Team, 2021. Common Weakness Enumeration. [Online] Available at: https://cwe.mitre.org/ [Accessed 30 April 2025].</li><br />
+												<li>Department for Science, Innovation & Technology, 2024. UK Cybersecurity Guidelines. London: UK Government Publications.</li><br />
+												<li>Devndra, D., 2020. Comparison between Django and Flask Security Features. Journal of Web Framework Studies, 6(2), pp. 104-112.</li><br />
+												<li>Django Software Foundation, 2023. Django Project Documentation. [Online] Available at: https://www.djangoproject.com/ [Accessed 29 April 2025].</li><br />
+												<li>Farrukh, S., 2013. Tradeoffs between Usability and Security. International Journal of Engineering and Technology, 5(4), pp. 434-437.</li><br />
+												<li>Fluid attacks: help center, 2024. Concurrent sessions - Python. [Online] Available at: https://help.fluidattacks.com/portal/en/kb/articles/criteria-fixes-python-062 [Accessed 01 April 2025].</li><br />
+												<li>GeoLite2, 2023. GeoLite Databases and Web Services. [Online] Available at: https://dev.maxmind.com/geoip/geoip2/geolite2/ [Accessed 01 May 2025].</li><br />
+												<li>Gollmann, D., 2021. Authentication, Authorisation & Accountability Knowledge Area Version 1.0.2. [Online] Available at: https://www.cybok.org/media/downloads/Authentication_Authorisation_Accountability_v1.0.2.pdf [Accessed 4 December 2024].</li><br />
+												<li>Golofit, K., 2007. Click Passwords Under Investigation. European Symposium on Research in Computer Security, 15(19), pp. 343-358.</li><br />
+												<li>Google cloud, 2025. Identity Platform. [Online] Available at: https://cloud.google.com/security/products/identity-platform [Accessed 30 April 2025].</li><br />
+												<li>Google, 2025. recaptcha how it works. [Online] Available at: https://cloud.google.com/security/products/recaptcha#how-it-works [Accessed 30 April 2025].</li><br />
+												<li>Grimes, R. A., 2020. Brute-Force Attacks. In: Hacking Multifactor Authentication. s.l.:s.n., p. Chapter 14.</li><br />
+												<li>Grunwaldt, J.-M., 2019. A Comparison of Modern Backend Frameworks Protections against Common Web Vulnerabilities. [Online] Available at: https://www.cs.tufts.edu/comp/116/archive/fall2019/jgrunwaldt.pdf [Accessed 30 April 2025].</li><br />
+												<li>Hamza, A. & Al-Janabi, R. J. s., 2024. Detecting Brute Force Attacks Using Machine Learning. BIO Web of Conferences, 97(3).</li><br />
+												<li>Herley, C. & Florencio, D., 2008. Protecting Financial Institutions from Brute-Force Attacks. In: IFIP – The International Federation for Information Processing. Boston, MA: Springer, pp. 681-685.</li><br />
+												<li>Hevner, A. R., March, S. . T., Ram, S. & Park, J., 2004. Design Science in Information Systems Research. MIS Quarterly, 28(1), pp. 75-105.</li><br />
+												<li>Idhom, M., Wahanani, H. E. & Fauzi, A., 2020. Network Security System on Multiple Servers Against Brute Force Attacks. Surabaya, Indonesia, IEEE, pp. 258-262.</li><br />
+												<li>Idris, N., Foozy, C. F. M. & Shamala, P., 2020. A Generic Review of Web Technology: DJango and Flask. International Journal of Advanced Computing Science and Engineering, 2(1), pp. 34-40.</li><br />
+												<li>IndiaFreeNotes, 2023. Influence of Information Systems in Transforming Businesses. [Online] Available at: https://indiafreenotes.com/influence-of-information-systems-in-transforming-businesses [Accessed 30 July 2023].</li><br />
+												<li>Information Commissioner's Office, 2024. Brute force attacks. [Online] Available at: https://ico.org.uk/about-the-ico/research-reports-impact-and-evaluation/research-and-reports/learning-from-the-mistakes-of-others-a-retrospective-review/brute-force-attacks/ [Accessed 3 December 2024].</li><br />
+												<li>Jimmy, F., 2024. Cybersecurity Threats and Vulnerabilities in Online Banking Systems. International Journal of Scientific Research and Management (IJSRM), 12(10), pp. 1631-1646.</li><br />
+												<li>Khan, R., McLaughlin, K., Laverty, D. & Sezer, S., 2017. STRIDE-based threat modeling for cyber-physical systems. Turin, Italy, IEEE.</li><br />
+												<li>Kirlappos, I. & Sasse, M. A., 2014. What Usable Security Really Means: Trusting and Engaging Users. London, UK, University College London, pp. 69-78.</li><br />
+												<li>Lodhi, A., 2010. Usability Heuristics as an assessment parameter: For performing Usability Testing. San Juan, USA, IEEE.</li><br />
+												<li>Lu, B. et al., 2018. A Measurement Study of Authentication Rate-Limiting Mechanisms of Modern Websites. ACSAC San Juan, PR, USA, Volume 00, pp. 3-7.</li><br />
+												<li>Lutz, M., 2013. Learning Python. 4th ed. s.l.:O'Reilly Media.</li>
+											  </ul>
+											  
 
 										</ol>
 										</section>
@@ -183,19 +235,31 @@
 										<p><ol type="disk"></ol>
 
 											<li><b>Project Outline</b></li>
-											<p> </p>
+											<p> My project focuses on developing a secure, Python-based authentication system designed to prevent brute-force attacks by integrating progressive lockouts, CAPTCHA verification, and two-factor authentication, all while maintaining a balance between strong security and user experience. </p>
 											<iframe src="images\Essex Assignments\Thesis\Project Outline.pdf" width="100%" height="500px">
 											</iframe>
 											<a href="images\Essex Assignments\Thesis\Project Outline.pdf" download>Download PDF </a></p>
 
-
-
 											<li><b>Research Proposal, Risk Assessement and Ethical Approval </b></li>
+											<p>This research proposal explores the challenges of brute-force attack mitigation in web authentication systems, proposing a layered defense model that incorporates adaptive security features and evaluates their effectiveness through simulation and testing.</p>
 											<p>Ethical Approval: Outlines the ethical considerations guiding the research, ensuring adherence to ethical principles and guidelines. Since the research does not involve human participants, issues like consent, do not apply. However, it will address relevant concerns related to data handling, security, and other ethical aspects of the work. </p>
 											<iframe src="images\Essex Assignments\Thesis\Research Proposal.pdf" width="100%" height="500px">
 											</iframe>
 											<a href="images\Essex Assignments\Thesis\Research Proposal.pdf" download>Download PDF </a></p>
 											
+											<li><b>Dissertation </b></li>
+											<p> This presents the full design, implementation, and evaluation of a Django-based login system that combines technical safeguards with usability-focused enhancements to address common access control threats.</p>
+											<p>To view the full system, visit my github, under <b>thesisdjango</b> repository: 
+											<a href= "https://github.com/MUTEGIbeatrice/thesisdjango.git" target="_blank">thesisdjango on GitHub</a>.</p>
+											<p>Below is a copy of the Dissertation as submitted for Master Thesis.</p>
+											<iframe src="images\Essex Assignments\Thesis\Dissertation Final.pdf" width="100%" height="500px">
+											</iframe>
+											<a href="images\Essex Assignments\Thesis\Dissertation Final.pdf" download>Download PDF </a></p>
+											
+											<p>Below is a copy of a Powerpoint Presentation (but in pdf) as submitted for Master Thesis.</p>
+											<iframe src="images\Essex Assignments\Thesis\Presentation.pdf" width="100%" height="500px">
+											</iframe>
+											<a href="images\Essex Assignments\Thesis\Presentation.pdf" download>Download PDF </a></p>
 											
 										
 										</p></ol>
